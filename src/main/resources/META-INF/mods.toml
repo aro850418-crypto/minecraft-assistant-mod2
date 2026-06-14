@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+[[dependencies.assistantmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.assistantmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+modId="assistantmod"
+version="${file.jarVersion}"
+displayName="Virtual Assistant Mod"
+description='''
+A flying virtual assistant that helps you survive in Minecraft!
+- Greets you when you join the world
+- Warns about nearby hostile mobs (15 block radius)
+- Alerts when your health drops below 3 hearts
+- Press H to show your current coordinates
+'''
